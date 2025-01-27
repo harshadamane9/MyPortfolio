@@ -1096,3 +1096,27 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+@media (max-width: 560px) {
+  .row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .portfolio-item {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .portfolio-wrap img {
+    height: 120px;
+  }
+
+  .portfolio-info h4 {
+    font-size: 14px;
+  }
+
+  .portfolio-links i {
+    font-size: 20px;
+  }
+}
